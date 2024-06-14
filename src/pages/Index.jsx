@@ -9,7 +9,7 @@ const Index = () => {
       <VStack spacing={4}>
         <Heading>Welcome to the AI-Powered BDR Sequence Builder</Heading>
         <Text>Create effective BDR sequences with AI-powered components and LinkedIn steps.</Text>
-        <Button colorScheme="teal" onClick={() => navigate("/about")}>Learn More</Button>
+        <Button colorScheme="teal" onClick={() => navigate("/builder")}>Start Building</Button>
       </VStack>
     </Container>
   );
