@@ -10,6 +10,7 @@ const Index = () => {
         <Heading>Welcome to the AI-Powered BDR Sequence Builder</Heading>
         <Text>Create effective BDR sequences with AI-powered components and LinkedIn steps.</Text>
         <Button colorScheme="teal" onClick={() => navigate("/builder")}>Start Building</Button>
+        <Button colorScheme="blue" onClick={() => navigate("/builder")}>Build Sequence</Button>
       </VStack>
     </Container>
   );
